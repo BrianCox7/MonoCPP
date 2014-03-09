@@ -1,0 +1,156 @@
+Mono Code Paths
+
+g_assert() ~~~
+g_assert_not_reached() ~~~
+g_build_filename() ~~~
+g_error()!
+g_free() ~~~
+g_getenv() ~~~
+g_file_test() ~~~
+g_hash_table_new() ~~~
+g_hash_table_insert() ~~~
+g_hash_table_lookup() ~~~
+g_new0() ~~~
+g_path_get_basename() ~~~
+g_print() ~~~
+g_ptr_array_new() ~~~
+g_slist_foreach() ~~~
+g_slist_free() ~~~
+g_slist_prepend() ~~~
+g_strdup() ~~~
+g_strdup_printf() ~~~
+g_strfreev() ~~~
+g_strsplit() ~~~
+g_warning() ~~~
+
+check_extra_gac_path_env()&
+check_path_env()&
+concat_two_strings_with_zero() ~~~
+create_domain_hook() ~~~
+domain_id_alloc() ~~~
+find_method_in_metadata() ~~~
+generic_array_methods() ~~~
+get_class_from_name() ~~~
+get_runtime_by_version()
+initialize_object_slots() ~~~
+invoke_assembly_preload_hook() ~~~
+jit_info_table_new() ~~~
+load_in_path() ~~~
+lock_free_mempool_new() ~~~
+return_nested_in() ~~~
+search_modules() ~~~
+set_failure_from_load_error() ~~~
+setup_interface_offsets() ~~~
+wapi_init() ~~~
+
+mono_appdomains_lock()&
+mono_appdomains_unlock()&
+mono_assemblies_init()&
+mono_assemblies_lock() ~~~
+mono_assemblies_unlock() ~~~
+mono_assembly_get_image()!
+mono_assembly_getrootdir()!
+mono_assembly_load_corlib()
+mono_assembly_load_from_full() ~~~
+mono_assembly_name_free() ~~~
+mono_assembly_load_friends()
+mono_assembly_load_module() ~~~
+mono_assembly_name_new() ~~~
+mono_assembly_name_parse_full() ~~~
+mono_assembly_load_reference() ~~~
+mono_class_from_name()
+mono_class_get() ~~~
+mono_class_get_cached_class_info() ~~~
+mono_class_has_finalizer() ~~~
+mono_class_init()
+mono_class_need_stelemref_method() ~~~
+mono_class_set_failure() ~~~
+mono_class_setup_fields() ~~~
+mono_class_setup_methods() ~~~
+mono_class_setup_supertypes() ~~~
+mono_class_setup_vtable() ~~~
+mono_classes_init()&
+mono_code_manager_new() ~~~
+mono_counters_register()&
+mono_custom_attrs_from_assembly() ~~~
+mono_custom_attrs_free() ~~~
+mono_debug_domain_create() ~~~
+_mono_debug_init_corlib()
+mono_debug_open_image() ~~~
+mono_debugger_class_init_func() ~~~
+mono_domain_create()&
+mono_g_hash_table_new_type() ~~~
+mono_gc_alloc_fixed() ~~~
+mono_gc_base_init() - null-gc&
+mono_gc_is_moving() - null-gc!
+mono_gc_make_descr_from_bitmap() - null-gc!
+mono_gc_register_root() - null-gc!
+mono_gc_set_current_thread_appdomain() - null-gc!
+mono_get_unique_iid() ~~~
+mono_hazard_pointer_clear() ~~~
+mono_hazard_pointer_get() ~~~
+mono_image_init_name_cache() ~~~
+mono_image_lock() ~~~
+mono_image_open_from_data_full() ~~~
+mono_image_unlock() ~~~
+mono_images_init()&
+mono_init_internal()&
+mono_jit_code_hash_init() ~~~
+mono_lls_init()!
+mono_loader_clear_error() ~~~
+mono_loader_get_last_error() ~~~
+mono_loader_init()&
+mono_loader_lock() ~~~
+mono_loader_unlock() ~~~
+mono_marshal_init_tls()
+mono_memory_barrier() ~~~
+mono_mempool_new() ~~~
+mono_metadata_init()&
+mono_metadata_decode_row() ~~~
+mono_metadata_decode_value() ~~~
+mono_metadata_token_index() ~~~
+mono_metadata_token_table() ~~~
+mono_mutex_init()&
+mono_native_thread_id_get() ~~~
+mono_native_tls_alloc()&
+mono_native_tls_get_value() ~~~
+mono_native_tls_set_value()&
+mono_perfcounters_init()!
+mono_profiler_appdomain_event() ~~~
+mono_profiler_appdomain_loaded() ~~~
+mono_reflection_init()!	
+mono_runtime_init_tls()
+mono_secman_inheritancedemand_class() ~~~
+mono_security_core_clr_enabled() ~~~
+mono_security_core_clr_check_inheritance() ~~~
+mono_security_enabled() ~~~
+mono_set_assemblies_path() ~~~
+mono_set_rootdir()&
+mono_thread_info_current()
+mono_thread_info_lookup() ~~~
+mono_thread_info_tls_set()!
+mono_thread_init_tls()&
+mono_thread_pool_init_tls()&
+mono_thread_smr_init()&
+mono_threads_init()&
+mono_threads_init_platform()!
+mono_verifier_class_is_valid_generic_instantiation() ~~~
+mono_verifier_is_enabled_for_class() ~~~
+mono_verifier_verify_class() ~~~
+mono_wsq_init()!
+
+strcmp()!
+strlen()!
+strncmp()!
+strchr()!
+memcpy()!
+malloc()!
+memset()!
+
+SetErrorMode() ~~~
+TlsAlloc()!
+TlsSetValue()!
+CreateSemaphore() ~~~
+InitializeCriticalSection() ~~~
+LeaveCriticalSection() ~~~
+EnterCriticalSection() ~~~
